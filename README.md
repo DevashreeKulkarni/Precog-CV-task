@@ -29,8 +29,8 @@ Modern CNNs are powerful but can be "lazy" - they exploit the easiest patterns i
 Precog-CV-task/
 ├── README.md                    # This file
 ├── CV_task.txt                  # Original task description
-├── task0.md                     # Detailed implementation report
-├── precog_cv_2.ipynb           # Main Jupyter notebook with all implementations
+├── Report.md                     # Detailed implementation report
+├── all_tasks.ipynb           # Main Jupyter notebook with all implementations
 └── data/                        # MNIST dataset (auto-downloaded)
 ```
 
@@ -81,7 +81,7 @@ python -c "import torch; print('CUDA available:', torch.cuda.is_available())"
 
 1. **Launch Jupyter:**
 ```bash
-jupyter notebook precog_cv_2.ipynb
+jupyter notebook all_tasks.ipynb
 ```
 
 2. **Run all cells sequentially:**
